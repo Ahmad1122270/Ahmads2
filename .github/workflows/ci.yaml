@@ -1,0 +1,13 @@
+name: ci-workflow
+on:   
+ push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome steps
+        run: echo "welcome to github Actions"
+        
+        
+          
